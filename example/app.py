@@ -20,7 +20,7 @@ app.config.update(
     DEBUG = True,
     TESTING = True,
     MONGODB_SETTINGS = {
-        'HOST': 'localhost',
+        'HOST': '172.30.134.57',
         'PORT': 27017,
         'DB': 'mongorest_example_app',
         'TZ_AWARE': False,
